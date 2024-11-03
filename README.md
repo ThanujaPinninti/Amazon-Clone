@@ -23,6 +23,8 @@ This project is a clone of the Amazon shopping website, designed to provide a si
    cd amazon-clone
 3. Open index.html in your preferred web browser to view the project.
 
+
+
 Usage
 
 Navigate through the categories and subcategories to explore different products.
