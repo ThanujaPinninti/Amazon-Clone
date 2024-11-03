@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <!-- Font Awesome icon library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Navbar section -->
+        <div class="navbar">
+            <!-- Amazon logo placeholder -->
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <!-- Delivery location section -->
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+            <!-- Search bar with dropdown for categories -->
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <!-- Sign-in section -->
+            <div class="nav-signin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <!-- Returns & Orders section -->
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+            <!-- Cart icon with text -->
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        <!-- Panel section with various quick links -->
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                ALL
+            </div>
+             <!-- List of panel options like Fresh, Prime, etc. -->
+            <div class="panel-ops">
+                <p>Fresh</p>
+                <p>Amazon miniTV</p>
+                <p>Prime</p>
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+            <!-- Promotions banner -->
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero section with promotional message -->
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>* Amazon special offers. Buy it enjoy it! *</p>
+        </div>
+    </div>
+
+   <!-- Shop section containing different product categories -->
+<div class="shop-section">
+    <div class="box box1">
+        <div class="box-content">
+            <h2>Clothes</h2>
+            <h4>All types of brands</h4>
+            <div class="sub-sections">
+                <!-- Subcategory for Girls Wear -->
+                <div class="sub-box">
+                    <h3>Girls Wear</h3>
+                    <div class="box-img" style="background-image: url('dress.webp');"></div>
+                    <p class="box-link">See more</p>
+                </div>
+                <div class="sub-box">
+                    <!-- Subcategory for Boys Wear -->
+                    <h3>Boys Wear</h3>
+                    <div class="box-img" style="background-image: url('Boys\ Wear.jpg');"></div>
+                    <p class="box-link">See more</p>
+                </div>
+                <div class="sub-box">
+                    <h3>Kids Wear</h3>
+                    <div class="box-img" style="background-image: url('kid\ wear.jfif');"></div>
+                    <p class="box-link">See more</p>
+                </div>
+                <div class="sub-box">
+                    <h3>Pets wear</h3>
+                    <div class="box-img" style="background-image: url('animal\ wear.jfif');"></div>
+                    <p class="box-link">See more</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="box box2">
+            <div class="box-content">
+                <h2>Fashions</h2>
+                <h4>Different types of designs</h4>
+                <div class="sub-sections">
+                    <div class="sub-box">
+                        <h3>Boys Things</h3>
+                        <div class="box-img" style="background-image: url('boys\ chains.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                    <div class="sub-box">
+                        <h3>Girls Things</h3>
+                        <div class="box-img" style="background-image: url('necklace.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                    <div class="sub-box">
+                        <h3>Makeup</h3>
+                        <div class="box-img" style="background-image: url('Makeup.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                    <div class="sub-box">
+                        <h3>Foot Wear</h3>
+                        <div class="box-img" style="background-image: url('Foot\ wear.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box box3">
+            <div class="box-content">
+                <h2>Electric devices</h2>
+                <h4>Computers, laptops, mobiles...</h4>
+                <div class="sub-sections">
+                    <div class="sub-box">
+                        <h3>Laptop</h3>
+                        <div class="box-img" style="background-image: url('dell.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                    <div class="sub-box">
+                        <h3>Moblie Phones</h3>
+                        <div class="box-img" style="background-image: url('phone.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                    <div class="sub-box">
+                        <h3>Tv</h3>
+                        <div class="box-img" style="background-image: url('tv.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                    <div class="sub-box">
+                        <h3>Headphones</h3>
+                        <div class="box-img" style="background-image: url('Headphone.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box box4">
+            <div class="box-content">
+                <h2>Stationery</h2>
+                <h4>Books, pens, papers...</h4>
+                <div class="sub-sections">
+                    <div class="sub-box">
+                        <h3>Books</h3>
+                        <div class="box-img" style="background-image: url('book.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                    <div class="sub-box">
+                        <h3>painting</h3>
+                        <div class="box-img" style="background-image: url('painting.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                    <div class="sub-box">
+                        <h3>Pen Holder</h3>
+                        <div class="box-img" style="background-image: url('pen\ holding.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                    <div class="sub-box">
+                        <h3>Pens</h3>
+                        <div class="box-img" style="background-image: url('pen\ holding.jfif');"></div>
+                        <p class="box-link">See more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+    <!-- Footer section -->
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Connect with Us</p>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="#">Make Money with Us</a>
+                <a href="#">Sell on Amazon</a>
+                <a href="#">Sell under Amazon Accelerator</a>
+                <a href="#">Protect and Build Your Brand</a>
+                <a href="#">Amazon Global Selling</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Fulfillment by Amazon</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Amazon Pay on Merchants</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="#">COVID-19 and Amazon</a>
+                <a href="#">Your Account</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">Amazon App Download</a>
+                <a href="#">Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo-footer"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
