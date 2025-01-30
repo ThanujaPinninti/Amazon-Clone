@@ -30,3 +30,5 @@ Usage
 Navigate through the categories and subcategories to explore different products.
 Use the search bar to find specific items.
 Click on the "See more" links to view additional products in each category.
+![image](https://github.com/user-attachments/assets/f8cdad62-132c-4aa0-88f3-3ee362de6da2)
+
